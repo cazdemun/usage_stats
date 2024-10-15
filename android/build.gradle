@@ -26,6 +26,8 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 30
 
+    namespace 'io.github.cazdemun.usage_stats'
+
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
